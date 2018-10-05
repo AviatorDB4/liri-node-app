@@ -76,7 +76,7 @@ function movie(inputs) {
 	});
 };
 
-function doit() {
+function randtxt() {
 	fs.readFile('random.txt', "utf8", function(error, data){
 
 		if (error) {
